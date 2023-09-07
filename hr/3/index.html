@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://fbih-statistika-sdg.github.io/sdg-data-fbih/hr',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+
+  language: 'hr',
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        
+    <title>Cilj 3 - Zdrav život i dobrobit - Indikatori za ciljeve održivog razvoja</title>
+
+
+
+        <meta name="description" content="">
+        <meta property="og:description" content="">
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+        <link rel="canonical" href="/">
+
+        
+
+        <!--[if IE 9]>
+        <script src="/sdg-site-fbih/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <!-- Favicons ================================================== -->
+        <!-- 128x128 -->
+        <link rel="shortcut icon" type="image/ico" href="/sdg-site-fbih/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-site-fbih/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+        -->
+
+        
+
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/sdg-site-fbih/assets/css/style.css?v=20230907192318">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+    </head>
+<body class="language-hr layout-goal-by-target">
+<!-- <div class="container"> -->
+
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Zadani kontrast","disable_high_contrast":"Onemogući visoki kontrast","disclaimer":"Ova internet stranica se razvija. Pozdravljamo vaše povratne informacije.","enable_high_contrast":"Omogući visoki kontrast","high_contrast":"Visok kontrast","skip_link":"Prijeđi na glavni sadržaj","tag_line":"17 ciljeva za transformiranje našeg svijeta"};</script>
+
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Prijeđi na glavni sadržaj</a>
+<div id="disclaimer">
+  <div class="container">
+  <div class="disclaimer-alert">
+    <strong class="phase-tag">Alfa</strong>
+    
+    Ova internet stranica se razvija. Pozdravljamo vaše povratne informacije.
+  </div>
+</div>
+
+</div>
+
+<header role="banner">
+  <div class="container">
+
+    <div class="logo-and-mobile-widgets">
+      <a class="navbar-brand" href="/sdg-site-fbih/hr/" id="home">
+        <img src="/sdg-site-fbih/assets/img/logo/hr/SDG_logo.png" alt="Ciljevi održivog razvoja - 17 ciljeva za transformiranje našeg svijeta" />
+      </a>
+
+      <div class="mobile-widgets">
+        <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+          <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Hrvatski</span>
+      <span class="language-abbreviation">hr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/sdg-site-fbih/3/">
+              English
+            </a>
+          </li><li>
+            <a href="/sdg-site-fbih/bs/3/">
+              Bosanski
+            </a>
+          </li><li>
+            <a href="/sdg-site-fbih/sr/3/">
+              Српски
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+        </div></div>
+    </div>
+
+    <nav class="navbar navbar-default" id="main-nav">
+
+      <ul class="top-level">
+        <li id="menuToggle"
+            aria-label=""
+            aria-haspopup="true">
+          <button data-target="menu-mobile" aria-expanded="false">Izbornik</button>
+          <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/goals">Ciljevi</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/reporting-status">Status izvještavanja</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/about">O nama</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/publications">Publikacije</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/covid-19-impact">COVID-19 Utjecaj</a>
+    </li><li class="language-toggle-menu-header">
+    
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Hrvatski</span>
+      <span class="language-abbreviation">hr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/sdg-site-fbih/3/">
+              English
+            </a>
+          </li><li>
+            <a href="/sdg-site-fbih/bs/3/">
+              Bosanski
+            </a>
+          </li><li>
+            <a href="/sdg-site-fbih/sr/3/">
+              Српски
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li>
+</ul>
+
+        </li>
+        <li id="searchToggle"
+            aria-label=""
+            aria-haspopup="true">
+          <button data-target="search-mobile" aria-expanded="false">Pretraživanje</button>
+          <div id="search-mobile" class="menu-target">
+  <form action="/sdg-site-fbih/hr/search">
+    <label class="sr-only" for="indicator_search-mobile">Pretraživanje</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Pretraživanje" /><!--
+    --><button aria-label="Pretraživanje" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+        </li>
+      </ul>
+
+      <div id="search" class="menu-target">
+  <form action="/sdg-site-fbih/hr/search">
+    <label class="sr-only" for="indicator_search">Pretraživanje</label>
+    <input type="text" name="q" id="indicator_search" title="Pretraživanje" /><!--
+    --><button aria-label="Pretraživanje" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/goals">Ciljevi</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/reporting-status">Status izvještavanja</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/about">O nama</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/publications">Publikacije</a>
+    </li><li class="nav-link ">
+    <a href="/sdg-site-fbih/hr/covid-19-impact">COVID-19 Utjecaj</a>
+    </li><li class="language-toggle-menu-header">
+    
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Hrvatski</span>
+      <span class="language-abbreviation">hr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/sdg-site-fbih/3/">
+              English
+            </a>
+          </li><li>
+            <a href="/sdg-site-fbih/bs/3/">
+              Bosanski
+            </a>
+          </li><li>
+            <a href="/sdg-site-fbih/sr/3/">
+              Српски
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li>
+</ul>
+
+
+    </nav>
+  </div>
+
+</header>
+<div id="top" tabindex=-1></div>
+
+
+<div class="container">
+  <ol class="breadcrumb">
+  
+  <li><a href="/sdg-site-fbih/hr/">Naslovna</a></li>
+  <li class="active">Cilj 3</li>
+  
+</ol>
+
+  
+    
+<div class="previous-next-links row">
+    <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
+        <a class="btn btn-primary" href="/sdg-site-fbih/hr/2" aria-labelledby="previous-link">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            <span id="previous-link" class="hidden-sm hidden-xs">Prethodni cilj</span>
+        </a>
+    </div>
+    <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
+        <a class="btn btn-primary" href="/sdg-site-fbih/hr/4" aria-labelledby="next-link">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span id="next-link" class="hidden-sm hidden-xs">Sljedeći cilj</span>
+        </a>
+    </div>
+</div>
+
+
+  
+</div>
+
+<div class="heading goal-banner goal-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
+        <img src="https://sdg.bhas.gov.ba/assets/img/goals/hr/3.png" alt="Zdrav život i dobrobit - Cilj 3" id="goal-3" />
+      </div>
+      <div class="col-xs-8 col-md-9 col-lg-10">
+        <h1>
+          <span class="hidden-sm hidden-md hidden-lg">Cilj 3: </span>Obezbijediti zdrav život i promovisati dobrobit svih ljudi, svih životnih dobi
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="main-content" class="container goal-indicators goal-3 goal-by-target" role="main">
+
+  
+
+
+
+  <div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+      <h2>Podciljevi</h2>
+    </div>
+    <div class="col-md-6">
+      <h2>Indikatori</h2>
+    </div>
+  </div>
+
+  
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.1
+      </span>
+      Do 2030. Smanjiti globalni omjer smrtnosti majki na manje od 70 na 100 000 živorođene djece
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.1.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-1-1">
+          Stopa smrtnosti majki
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.1.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-1-2">
+          Udio rođenih uz pomoć stručnog zdravstvenog osoblja
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.2
+      </span>
+      Do 2030. Okončati smrtnost novorođenčadi I djece mlađe od 5 godina koja se može spriječiti, pri čemu sve zemlje imaju za cilj smanjiti neonatalnu smrtnost na najmanje 12 na 1000 živorođene djece I smrtnost djece mlađe od 5 godina na najmanje 25 na 1000 živorođene djece
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.2.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-2-1">
+          Stopa smrtnosti djece ispod 5 godina
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.2.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-2-2">
+          Stopa smrtnosti novorođenčadi
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.3
+      </span>
+      Do 2030. zaustaviti epidemije AIDS-a, tuberkuloze, malarije i zanemarenih tropskih bolesti i boriti se protiv hepatitisa, bolesti koje se prenose vodom i drugih zaraznih bolestii
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.3.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-3-1">
+          Broj novih slučajeva zaraze HIV-om na 1 000 nezaraženih osoba, prema spolu, dobi I određenim grupama stanovništva
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.3.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-3-2">
+          Učestalost tuberkuloze na 100 000 stanovnika
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.3.3
+          <span class="status notstarted">
+            Istraživanje izvora podataka
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-3-3">
+          Učestalost malarije na 1000 stanovnika
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.3.4
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-3-4">
+          Učestalost hepatitisa B na 100.000 stanovnika
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.3.5
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-3-5">
+          Broj osoba koje su zatražile intervencije protiv zanemarenih tropskih bolesti
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.4
+      </span>
+      Do 2030. smanjiti za jednu trećinu preuranjenu smrtnost od nezaraznih bolesti prevencijom i liječenjem te promicati mentalno zdravlje i dobrobit
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.4.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-4-1">
+          Stopa smrtnosti od kardiovaskularnih bolesti, raka, dijabetesa ili kroničnih bolesti dišnog sustava
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.4.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-4-2">
+          Stopa smrtnosti od samoubojstava
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.5
+      </span>
+      Ojačati prevenciju i liječenje poremećaja uzrokovanih zlouporabom supstanci, uključujući zlouporabu opojnih droga i štetnu upotrebu alkohola
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.5.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-5-1">
+          Pokrivenost intervencijama liječenja (farmakološkim, psihosocijalnim i rehabilitacijskim te naknadnim uslugama) poremećaja uzrokovanih uporabom supstanci
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.5.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-5-2">
+          Potrošnja alkohola po stanovniku (u dobi od 15 godina i više) u kalendarskoj godini izražena u litrama čistog alkohola
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.6
+      </span>
+      Do 2020. prepoloviti broj globalnih smrtnih slučajeva i ozljeda u prometnim nesrećama
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.6.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-6-1">
+          Stopa smrtnosti uslijed ozljeda u cestovnom prometu
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.7
+      </span>
+      DDo 2030. osigurati univerzalni pristup uslugama seksualne i reproduktivne zdravstvene zaštite, uključujući planiranje obitelji, informiranje i obrazovanje te integraciju reproduktivnog zdravlja u nacionalne strategije i programe
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.7.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-7-1">
+          Udio žena u reproduktivnoj dobi (od 15 do 49 godina) koje planiraju obitelj suvremenim metodama
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.7.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-7-2">
+          Stopa nataliteta adolescenata (u dobi od 10 do 14 godina; u dobi od 15 do 19 godina) na 1000 žena u toj dobnoj skupini
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.8
+      </span>
+      Postizanje univerzalne zdravstvene pokrivenosti, uključujući zaštitu od financijskih rizika, pristup kvalitetnim osnovnim zdravstvenim uslugama i pristup sigurnim, učinkovitim, kvalitetnim i pristupačnim osnovnim lijekovima i cjepivima za sve
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.8.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-8-1">
+          Pokrivenost osnovnim zdravstvenim uslugama
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.8.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-8-2">
+          Udio stanovnika s velikim izdacima za zdravstvo kao udio u ukupnim izdacima ili dohotku kućanstva
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.9
+      </span>
+      Do 2030. znatno smanjiti broj smrti i bolesti uzrokovanih opasnim kemikalijama te onečišćenjem i kontaminacijom zraka, vode i tla
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.9.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-9-1">
+          Stopa smrtnosti zbog onečišćenja zraka u kućanstvu ili okolini
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.9.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-9-2">
+          Stopa smrtnosti zbog onečišćenja vode te loših sanitarnih i higijenskih uvjeta (nedostatak usluga WASH - pitke vode, prikladnih sanitarnih i higijenskih uvjeta)
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.9.3
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-9-3">
+          Stopa smrtnosti koja se pripisuje nenamjernom trovanju
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.a
+      </span>
+      Ojačati provedbu „Okvirne konvencije Svjetske zdravstvene organizacije o kontroli duhana“ u svim državama, na odgovarajući način
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.a.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-a-1">
+          Dobno standardizirana prevalencija pušenja duhana među osobama u dobi od 15 godina i više
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.b
+      </span>
+      Podržati istraživanje I razvoj cjepiva I lijekova za zarazne I nezarazne bolesti koje prvenstveno pogađaju zemlje u razvoju, omogućiti pristup pristupačnim esencijalnim lijekovima I vakcinama, u skladu s „Deklaracijom iz Dohe o Sporazumu o trgovačkim aspektima prava intelektualne svojine (TRIPS) I javnom zdravlju“, kojom se potvrđuje pravo zemalja u razvoju da u potpunosti koriste odredbe „Sporazuma o trgovačkim aspektima prava intelektualne svojine“ koje se odnose na fleksibilnost u pogledu zaštite javnog zdravlja, i posebno, osiguranje pristupa lijekovima za sve
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.b.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-b-1">
+          Udio ciljne populacije cijepljene svim cjepivima uključenim u njihov nacionalni program
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.b.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-b-2">
+          Ukupna neto zvanična razvojna pomoć za medicinska istraživanja i osnovne zdravstvene sektore
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.b.3
+          <span class="status notstarted">
+            Istraživanje izvora podataka
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-b-3">
+          Udio zdravstvenih ustanova koje imaju osnovni skup relevantnih neophodnih lijekova koji su dostupni i pristupačni na održivoj osnovi
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.c
+      </span>
+      Znatno povećati financiranje zdravstva I zapošljavanje, razvoj, obuku I zadržavanje zdravstvene radne snage u zemljama u razvoju, posebno u najmanje razvijenim zemljama I malim otočnim državama u razvoju
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.c.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-c-1">
+          Gustoća i raspodjela broja zdravstvenih radnika
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Podcilj</label>
+        3.d
+      </span>
+      Ojačati kapacitete svih zemalja, posebno zemalja u razvoju, za rano upozoravanje, smanjenje rizika I upravljanje nacionalnim I globalnim zdravstvenim rizic
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.d.1
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-d-1">
+          Međunarodni zdravstveni propisi (IHR) i spremnost na hitne slučajeve u zdravstvu
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          3.d.2
+          <span class="status complete">
+            Izviješteno online
+          </span>
+        </span>
+        <a href="/sdg-site-fbih/hr/3-d-2">
+          Postotak infekcija koje se prenose krvlju uzrokovane specifičnim mikroorganizmima otpornim na lijekove
+        </a>
+        
+      </div>
+    
+    </div>
+  
+</div>
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="footerLinks">
+          <ul>
+            <li><a href="https://open-sdg.org">Izgrađeno pomoću Open SDG-a</a></li>
+            
+              <li>
+                
+                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Kontaktirajte nas</a>
+                
+                </li>
+              <li>
+                <a href="/sdg-site-fbih/hr/about/cookies-and-privacy/">Kolačići</a>
+                
+                </li>
+              
+            
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+<!-- Google Analytics -->
+
+<!-- /.container </div> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = 'Sakriti';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = 'Pretraživanje';</script>
+
+<script src='/sdg-site-fbih/assets/js/sdg.js?v=20230907192318'></script>
+
+
+    
+    
+    <script src="/sdg-site-fbih/assets/js/custom.js?v=20230907192318"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              showData: domData.showdata,
+              graphType: domData.graphtype,
+              startValues: domData.startvalues,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+              graphAnnotations: domData.graphannotations,
+              indicatorDownloads: domData.indicatordownloads,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+
+    var switcher = new accessibilitySwitcher();
+
+
+});
+</script>
+
+
+
+
+</body>
+</html>
+
