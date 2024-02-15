@@ -10,7 +10,7 @@
           "title": "Udio stanovništva koji živi ispod međunarodne linije siromaštva prema spolu, starosti, statusu zaposlenja i geografskoj lokaciji (urbano/ruralno)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-1-1",
+          "href": "/bs/1-1-1",
           "status": "complete"
         },
         {
@@ -18,7 +18,7 @@
           "title": "Udio stanovništva koja živi ispod nacionalne linije siromaštva, po polu i starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-2-1",
+          "href": "/bs/1-2-1",
           "status": "complete"
         },
         {
@@ -26,7 +26,7 @@
           "title": "Udio muškaraca, žena i djece svih uzrasta koji žive u siromaštvu u svim njegovim dimenzijama prema nacionalnim definicijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-2-2",
+          "href": "/bs/1-2-2",
           "status": "complete"
         },
         {
@@ -34,7 +34,7 @@
           "title": "Procenat stanovništva pokrivenih sistemima socijalne zaštite, po polu, uz razlikovanje djece, nezaposlenih lica, starijih osoba, osoba sa invaliditetom, trudnica, novorođenčadi, žrtava povrede na radu i siromašnih i ranjivih",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-3-1",
+          "href": "/bs/1-3-1",
           "status": "complete"
         },
         {
@@ -42,7 +42,7 @@
           "title": "Udio stanovništva koji žive u domaćinstvima sa pristupom osnovnim uslugama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-4-1",
+          "href": "/bs/1-4-1",
           "status": "complete"
         },
         {
@@ -50,7 +50,7 @@
           "title": "Udio ukupne populacije odraslih osoba koje imaju sigurna zemljišna prava, (a) sa zakonski priznatom dokumentacijom, i (b) koji smatraju da su njihova zemljišna prava sigurna, po spolu i vrsti prava na zemlji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-4-2",
+          "href": "/bs/1-4-2",
           "status": "notstarted"
         },
         {
@@ -58,7 +58,7 @@
           "title": "Broj umrlih osoba, nestalih osoba i osoba direktno pogođenih katastrofama na 100.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-5-1",
+          "href": "/bs/1-5-1",
           "status": "notstarted"
         },
         {
@@ -66,7 +66,7 @@
           "title": "Direktni ekonomski gubici koji se pripisuju katastrofama u odnosu na globalni bruto domaći proizvod (BDP)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-5-2",
+          "href": "/bs/1-5-2",
           "status": "notstarted"
         },
         {
@@ -74,7 +74,7 @@
           "title": "Broj zemalja koje usvajaju i implementiraju nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai Okvirom za smanjenje rizika od katastrofa 2015-2030",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-5-3",
+          "href": "/bs/1-5-3",
           "status": "complete"
         },
         {
@@ -82,7 +82,7 @@
           "title": "Udio jedinica lokalne samouprave koje donose i sprovode lokalne strategije za smanjenje rizika od katastrofa u skladu sa nacionalnim strategijama za smanjenje rizika od katastrofa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-5-4",
+          "href": "/bs/1-5-4",
           "status": "complete"
         },
         {
@@ -90,7 +90,7 @@
           "title": "Ukupni grantovi službene razvojne pomoći od svih donatora koji se fokusiraju na smanjenje siromaštva kao udio u bruto nacionalnom dohotku zemlje primaoca",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-a-1",
+          "href": "/bs/1-a-1",
           "status": "complete"
         },
         {
@@ -98,7 +98,7 @@
           "title": "Udio ukupne državne potrošnje na osnovne usluge (obrazovanje, zdravstvo i socijalna zaštita)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-a-2",
+          "href": "/bs/1-a-2",
           "status": "notstarted"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Javna socijalna potrošnja za siromašne",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/1-b-1",
+          "href": "/bs/1-b-1",
           "status": "notstarted"
         }]
     }
@@ -122,7 +122,7 @@
           "title": "Prevalencija (iskorjenjivanje) pothranjenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-1-1",
+          "href": "/bs/2-1-1",
           "status": "complete"
         },
         {
@@ -130,7 +130,7 @@
           "title": "Prevalencija (iskorjenjivanje) umjerene ili teške nesigurnosti hrane u stanovništvu, prema Skali iskustva nesigurnosti hrane (FIES)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-1-2",
+          "href": "/bs/2-1-2",
           "status": "complete"
         },
         {
@@ -138,7 +138,7 @@
           "title": "Prevalencija zaostajanja u razvoju (visina za uzrast <-2 standardne devijacije od srednje vrijednosti prema standardima Svjetske zdravstvene organizacije (WHO)) među djecom mlađom od 5 godina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-2-1",
+          "href": "/bs/2-2-1",
           "status": "complete"
         },
         {
@@ -146,7 +146,7 @@
           "title": "Prevalencija pothranjenosti (težina prema visini >+2 ili <-2 standardne devijacije od medijana prema Standardu rasta djece Svjetske zdravstvene organizacije (WHO) među djecom mlađom od 5 godina, prema vrsti (pothranjenost i prekomjerna težina)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-2-2",
+          "href": "/bs/2-2-2",
           "status": "complete"
         },
         {
@@ -154,7 +154,7 @@
           "title": "Prevalencija anemije kod žena u dobi od 15 do 49 godina, prema statusu trudnoće (%)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-2-3",
+          "href": "/bs/2-2-3",
           "status": "complete"
         },
         {
@@ -162,7 +162,7 @@
           "title": "Obim proizvodnje po jedinici rada po klasama veličine poljoprivrednog/stočarskog/šumarskog preduzeća",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-3-1",
+          "href": "/bs/2-3-1",
           "status": "notstarted"
         },
         {
@@ -170,7 +170,7 @@
           "title": "Prosječni prihod malih proizvođača hrane, prema spolu i autohtonom statusu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-3-2",
+          "href": "/bs/2-3-2",
           "status": "notstarted"
         },
         {
@@ -178,7 +178,7 @@
           "title": "Udio poljoprivrednih površina pod produktivnom i održivom poljoprivredom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-4-1",
+          "href": "/bs/2-4-1",
           "status": "notstarted"
         },
         {
@@ -186,7 +186,7 @@
           "title": "Broj (a) biljnih i (b) životinjskih genetičkih resursa za hranu i poljoprivredu osiguranih u objektima za srednjoročno ili dugoročno očuvanje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-5-1",
+          "href": "/bs/2-5-1",
           "status": "complete"
         },
         {
@@ -194,7 +194,7 @@
           "title": "Udio lokalnih pasmina klasifikovanih kao ugrožene od nestajanja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-5-2",
+          "href": "/bs/2-5-2",
           "status": "complete"
         },
         {
@@ -202,7 +202,7 @@
           "title": "Orijentacioni poljoprivredni indeks za državne troškove",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-a-1",
+          "href": "/bs/2-a-1",
           "status": "complete"
         },
         {
@@ -210,7 +210,7 @@
           "title": "Ukupni zvanični tokovi sredstava (zvanična razvojna pomoć i druga zvanična sredstva) u sektoru poljoprivrede",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-a-2",
+          "href": "/bs/2-a-2",
           "status": "complete"
         },
         {
@@ -218,7 +218,7 @@
           "title": "Subvencije za izvoz poljoprivrednih proizvoda",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-b-1",
+          "href": "/bs/2-b-1",
           "status": "notstarted"
         },
         {
@@ -226,7 +226,7 @@
           "title": "Pokazatelj anomalija cijena hrane",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/2-c-1",
+          "href": "/bs/2-c-1",
           "status": "complete"
         }]
     }
@@ -242,7 +242,7 @@
           "title": "Stopa smrtnosti majki",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-1-1",
+          "href": "/bs/3-1-1",
           "status": "complete"
         },
         {
@@ -250,7 +250,7 @@
           "title": "Udio porođaja uz prisustvo kvalifikovanih zdravstvenih radnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-1-2",
+          "href": "/bs/3-1-2",
           "status": "complete"
         },
         {
@@ -258,7 +258,7 @@
           "title": "Stopa smrtnosti djece ispod 5 godina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-2-1",
+          "href": "/bs/3-2-1",
           "status": "complete"
         },
         {
@@ -266,7 +266,7 @@
           "title": "Stopa neonatalne smrtnosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-2-2",
+          "href": "/bs/3-2-2",
           "status": "complete"
         },
         {
@@ -274,7 +274,7 @@
           "title": "Broj novih slučajeva infekcijom HIV-om na 1.000 nezaraženih osoba, po spolu, dobi i određenim grupama stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-3-1",
+          "href": "/bs/3-3-1",
           "status": "complete"
         },
         {
@@ -282,7 +282,7 @@
           "title": "Učestalost tuberkuloze na 100.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-3-2",
+          "href": "/bs/3-3-2",
           "status": "complete"
         },
         {
@@ -290,7 +290,7 @@
           "title": "Učestalost malarije na 1.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-3-3",
+          "href": "/bs/3-3-3",
           "status": "complete"
         },
         {
@@ -298,7 +298,7 @@
           "title": "Učestalost hepatitisa B na 100.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-3-4",
+          "href": "/bs/3-3-4",
           "status": "complete"
         },
         {
@@ -306,7 +306,7 @@
           "title": "Broj osoba koje su tražile intervencije protiv zanemarenih tropskih bolesti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-3-5",
+          "href": "/bs/3-3-5",
           "status": "complete"
         },
         {
@@ -314,7 +314,7 @@
           "title": "Stopa smrtnosti koja se pripisuje kardiovaskularnim bolestima, raku, dijabetesu ili kroničnoj respiratornoj bolesti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-4-1",
+          "href": "/bs/3-4-1",
           "status": "complete"
         },
         {
@@ -322,7 +322,7 @@
           "title": "Stopa smrtnosti od samoubistava",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-4-2",
+          "href": "/bs/3-4-2",
           "status": "complete"
         },
         {
@@ -330,7 +330,7 @@
           "title": "Pokrivenost intervencijama liječenja (farmakološke, psihosocijalne i rehabilitacijske i prateće usluge) poremećaja uzrokovanih upotrebom supstanci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-5-1",
+          "href": "/bs/3-5-1",
           "status": "complete"
         },
         {
@@ -338,7 +338,7 @@
           "title": "Potrošnja alkohola po stanovniku (starosti od 15 i više godina) u kalendarskoj godini u litrima čistog alkohola",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-5-2",
+          "href": "/bs/3-5-2",
           "status": "complete"
         },
         {
@@ -346,7 +346,7 @@
           "title": "Stopa smrtnosti zbog povreda u cestovnom saobraćaju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-6-1",
+          "href": "/bs/3-6-1",
           "status": "complete"
         },
         {
@@ -354,7 +354,7 @@
           "title": "Udio žena u reproduktivnom dobu (starosti 15–49 godina) koje imaju potrebu za planiranjem porodice savremenim metodama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-7-1",
+          "href": "/bs/3-7-1",
           "status": "complete"
         },
         {
@@ -362,7 +362,7 @@
           "title": "Stopa nataliteta adolescenata (starosti od 10-14 godina; starosti od 15-19 godina) na 1.000 žena u toj starosnoj grupi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-7-2",
+          "href": "/bs/3-7-2",
           "status": "complete"
         },
         {
@@ -370,7 +370,7 @@
           "title": "Pokrivenost osnovnih zdravstvenih usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-8-1",
+          "href": "/bs/3-8-1",
           "status": "complete"
         },
         {
@@ -378,7 +378,7 @@
           "title": "Udio stanovnika sa velikim izdacima za zdravstvo kao udio u ukupnim rashodima ili prihodima domaćinsava",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-8-2",
+          "href": "/bs/3-8-2",
           "status": "complete"
         },
         {
@@ -386,7 +386,7 @@
           "title": "Stopa smrtnosti zbog zagađenja vazduha u domaćinstvu i okolišu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-9-1",
+          "href": "/bs/3-9-1",
           "status": "complete"
         },
         {
@@ -394,7 +394,7 @@
           "title": "Stopa smrtnosti koja se pripisuje neispravnoj vodi, nesigurnim sanitarnim uslovima i nedostatku higijene (nedostatak usluga WASH - pitke vode, prikladnih sanitarnih i higijenskih uslova)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-9-2",
+          "href": "/bs/3-9-2",
           "status": "complete"
         },
         {
@@ -402,7 +402,7 @@
           "title": "Stopa smrtnosti pripisana nenamjernom trovanju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-9-3",
+          "href": "/bs/3-9-3",
           "status": "complete"
         },
         {
@@ -410,7 +410,7 @@
           "title": "Dobno standardizirana prevalencija pušenja duhana među osobama starijim od 15 godina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-a-1",
+          "href": "/bs/3-a-1",
           "status": "complete"
         },
         {
@@ -418,7 +418,7 @@
           "title": "Udio ciljne populacije cijepljene svim vakcinama uključenim u njihov nacionalni program",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-b-1",
+          "href": "/bs/3-b-1",
           "status": "complete"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Ukupna neto zvanična razvojna pomoć medicinskim istraživanjima i osnovnim zdravstvenim sektorima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-b-2",
+          "href": "/bs/3-b-2",
           "status": "complete"
         },
         {
@@ -434,7 +434,7 @@
           "title": "Udio zdravstvenih ustanova koje imaju osnovni set relevantnih esencijalnih lijekova dostupnih i pristupačnih na održivoj osnovi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-b-3",
+          "href": "/bs/3-b-3",
           "status": "notstarted"
         },
         {
@@ -442,7 +442,7 @@
           "title": "Gustoća i raspodjela zdravstvenih radnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-c-1",
+          "href": "/bs/3-c-1",
           "status": "complete"
         },
         {
@@ -450,7 +450,7 @@
           "title": "Međunarodni zdravstveni propisi (IHR) i spremnost za hitne zdravstvene situacije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-d-1",
+          "href": "/bs/3-d-1",
           "status": "complete"
         },
         {
@@ -458,7 +458,7 @@
           "title": "Postotak infekcija koje se šire krvotokom, a uzrokovane su specifičnim mikroorganizmima otpornim na lijekove",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/3-d-2",
+          "href": "/bs/3-d-2",
           "status": "complete"
         }]
     }
@@ -474,7 +474,7 @@
           "title": "Udio djece i mladih: (a) u 2./3. razredu; (b) na kraju osnovnog obrazovanja; i (c) na kraju nižeg srednjeg obrazovanja, koji su postigli barem osnovni nivo znanja (i) čitanja i (ii) matematike, prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-1-1",
+          "href": "/bs/4-1-1",
           "status": "complete"
         },
         {
@@ -482,7 +482,7 @@
           "title": "Stopa završavanja (osnovno obrazovanje, niže srednje obrazovanje, više srednje obrazovanje)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-1-2",
+          "href": "/bs/4-1-2",
           "status": "complete"
         },
         {
@@ -490,7 +490,7 @@
           "title": "Udio djece  uzrasta od 24 do 59 mjeseci koja su u razvoju u zdravlju, učenju i psihosocijalnom blagostanju, prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-2-1",
+          "href": "/bs/4-2-1",
           "status": "complete"
         },
         {
@@ -498,7 +498,7 @@
           "title": "Stopa učešća u organizovanom učenju (godinu dana prije zvanične dobi za ulazak u osnovnu školu), prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-2-2",
+          "href": "/bs/4-2-2",
           "status": "complete"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Stopa učešća mladih i odraslih u formalnom i neformalnom obrazovanju i obuci u prethodnih 12 mjeseci, prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-3-1",
+          "href": "/bs/4-3-1",
           "status": "complete"
         },
         {
@@ -514,7 +514,7 @@
           "title": "Udio mladih i odraslih sa vještinama informacijsko-komunikacijskih tehnologija (IKT), prema vrsti vještina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-4-1",
+          "href": "/bs/4-4-1",
           "status": "complete"
         },
         {
@@ -522,7 +522,7 @@
           "title": "Indeksi pariteta (žene/muškarci, ruralna/urbana područja, najniži/najviši kvintil blagostanja i drugi kao što su status invalidnosti, autohtoni narodi i ugroženi sukobima, zavisno od dostupnosti podataka) za sve indikatore obrazovanja sa ove liste koji se mogu razvrstati",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-5-1",
+          "href": "/bs/4-5-1",
           "status": "complete"
         },
         {
@@ -530,7 +530,7 @@
           "title": "Udio stanovništva određene starosne grupe koje je dostiglo najmanji fiksni nivo postignuća u funkcionalnoj  (a) pismenosti i (b) matematičkim vještinama, prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-6-1",
+          "href": "/bs/4-6-1",
           "status": "notstarted"
         },
         {
@@ -538,7 +538,7 @@
           "title": "Mjera u kojoj su (i) obrazovanje o globalnom građanstvu i (ii) obrazovanje za održivi razvoj uključeni u (a) nacionalne obrazovne politike; (b) nastavne planove i programe; (c) obrazovanje nastavnika; i (d) ocjenjivanje učenika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-7-1",
+          "href": "/bs/4-7-1",
           "status": "complete"
         },
         {
@@ -546,7 +546,7 @@
           "title": "Udio škola koje nude osnovne usluge, prema vrsti usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-a-1",
+          "href": "/bs/4-a-1",
           "status": "complete"
         },
         {
@@ -554,7 +554,7 @@
           "title": "Iznos službene razvojne pomoći za stipendiranje, po sektorima i vrsti obrazovanja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-b-1",
+          "href": "/bs/4-b-1",
           "status": "complete"
         },
         {
@@ -562,7 +562,7 @@
           "title": "Udio nastavnika sa minimalno potrebnim kvalifikacijama, prema nivou obrazovanja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/4-c-1",
+          "href": "/bs/4-c-1",
           "status": "notstarted"
         }]
     }
@@ -578,7 +578,7 @@
           "title": "Postoje li ili ne zakonski okviri za promicanje, jačanje i praćenje ravnopravnosti i nediskriminacije na osnovu spola",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-1-1",
+          "href": "/bs/5-1-1",
           "status": "complete"
         },
         {
@@ -586,7 +586,7 @@
           "title": "Udio žena i djevojčica u dobi od 15 godina i više koje su ikada imale partnera, a koje su bile izložene fizičkom, seksualnom ili psihičkom nasilju od strane sadašnjeg ili bivšeg intimnog partnera u prethodnih 12 mjeseci, prema obliku nasilja i prema godinama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-2-1",
+          "href": "/bs/5-2-1",
           "status": "complete"
         },
         {
@@ -594,7 +594,7 @@
           "title": "Udio žena i djevojčica od 15 godina i više koje su bile izložene seksualnom nasilju od strane osoba koje nisu intimni partner u prethodnih 12 mjeseci, prema dobi i mjestu događaja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-2-2",
+          "href": "/bs/5-2-2",
           "status": "notstarted"
         },
         {
@@ -602,7 +602,7 @@
           "title": "Udio žena u dobi od 20 do 24 godine koje su stupile u brak ili u vanbračnu zajednicu prije 15 godine i prije 18 godine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-3-1",
+          "href": "/bs/5-3-1",
           "status": "complete"
         },
         {
@@ -610,7 +610,7 @@
           "title": "Udio djevojčica i žena u dobi od 15 do 49 godina koje su podvrgnute sakaćenju ženskih genitalija, prema dobi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-3-2",
+          "href": "/bs/5-3-2",
           "status": "notstarted"
         },
         {
@@ -618,7 +618,7 @@
           "title": "Udio vremena provedenog na neplaćenom radu u kući i neplaćenoj njezi, prema spolu, dobi i lokaciji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-4-1",
+          "href": "/bs/5-4-1",
           "status": "notstarted"
         },
         {
@@ -626,7 +626,7 @@
           "title": "Udio mjesta koje imaju žene u (a) nacionalnim parlamentima i (b) lokalnim samoupravama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-5-1",
+          "href": "/bs/5-5-1",
           "status": "complete"
         },
         {
@@ -634,7 +634,7 @@
           "title": "Udio žena na rukovodećim radnim mjestima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-5-2",
+          "href": "/bs/5-5-2",
           "status": "complete"
         },
         {
@@ -642,7 +642,7 @@
           "title": "Udio žena u dobi od 15 do 49 godina koje donose vlastite informirane odluke u vezi sa seksualnim odnosima, upotrebom kontracepcije i brigom o reproduktivnom zdravlju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-6-1",
+          "href": "/bs/5-6-1",
           "status": "notstarted"
         },
         {
@@ -650,7 +650,7 @@
           "title": "Broj zemalja sa zakonima i propisima koji garantuju ženama i muškarcima u dobi od 15 godina i više potpun i jednak pristup seksualnoj i reproduktivnoj zdravstvenoj zaštiti, informacijama i obrazovanju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-6-2",
+          "href": "/bs/5-6-2",
           "status": "notstarted"
         },
         {
@@ -658,7 +658,7 @@
           "title": "(a) Udio stanovništva koje se bavi poljoprivredom sa vlasništvom ili sigurnim pravima nad poljoprivrednim zemljištem, prema spolu; i (b) udio žena među vlasnicima ili nosiocima prava na poljoprivredno zemljište, prema vrsti posjeda",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-a-1",
+          "href": "/bs/5-a-1",
           "status": "complete"
         },
         {
@@ -666,7 +666,7 @@
           "title": "Udio zemalja u kojima pravni okvir (uključujući običajno pravo) garantuje ženama jednaka prava na vlasništvo nad zemljom i/ili kontrolu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-a-2",
+          "href": "/bs/5-a-2",
           "status": "complete"
         },
         {
@@ -674,7 +674,7 @@
           "title": "Udio pojedinaca koji posjeduju mobilni telefon, prema spolu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-b-1",
+          "href": "/bs/5-b-1",
           "status": "notstarted"
         },
         {
@@ -682,7 +682,7 @@
           "title": "Udio zemalja sa sistemima za praćenje i objavljivanje javnih izdvajanja za rodnu ravnopravnost i osnaživanje žena",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/5-c-1",
+          "href": "/bs/5-c-1",
           "status": "complete"
         }]
     }
@@ -698,7 +698,7 @@
           "title": "Udio stanovništva koji koristi vodu za piće iz sistema kojima se sigurno upravlja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-1-1",
+          "href": "/bs/6-1-1",
           "status": "complete"
         },
         {
@@ -706,7 +706,7 @@
           "title": "Udio stanovništva koji koristi (a) sigurno vođene sanitarne usluge i (b) objekte za pranje ruku sapunom i vodom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-2-1",
+          "href": "/bs/6-2-1",
           "status": "complete"
         },
         {
@@ -714,7 +714,7 @@
           "title": "Udio prečišćenih otpadnih voda iz domaćinstava i industrije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-3-1",
+          "href": "/bs/6-3-1",
           "status": "complete"
         },
         {
@@ -722,7 +722,7 @@
           "title": "Udio vodnih površina sa dobrim kvalitetom vode",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-3-2",
+          "href": "/bs/6-3-2",
           "status": "complete"
         },
         {
@@ -730,7 +730,7 @@
           "title": "Promjena u efikasnosti korištenja vode tokom vremena",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-4-1",
+          "href": "/bs/6-4-1",
           "status": "complete"
         },
         {
@@ -738,7 +738,7 @@
           "title": "Nivo vodnog stresa: povlačenje slatke vode kao udio raspoloživih slatkovodnih resursa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-4-2",
+          "href": "/bs/6-4-2",
           "status": "complete"
         },
         {
@@ -746,7 +746,7 @@
           "title": "Stepen integrisanog upravljanja vodnim resursima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-5-1",
+          "href": "/bs/6-5-1",
           "status": "complete"
         },
         {
@@ -754,7 +754,7 @@
           "title": "Udio područja pod prekograničnim slivovima i sa operativnim aranžmanima za vodnu saradnju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-5-2",
+          "href": "/bs/6-5-2",
           "status": "complete"
         },
         {
@@ -762,7 +762,7 @@
           "title": "Promjena u obimu vodnih ekosistema tokom vremena",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-6-1",
+          "href": "/bs/6-6-1",
           "status": "complete"
         },
         {
@@ -770,7 +770,7 @@
           "title": "Iznos zvanične razvojne pomoći u vezi sa vodosnabdijevanjem i odvodnjom koji je dio vladinog usklađenog plana potrošnje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-a-1",
+          "href": "/bs/6-a-1",
           "status": "complete"
         },
         {
@@ -778,7 +778,7 @@
           "title": "Udio lokalnih administrativnih jedinica sa uspostavljenim operativnim politikama i procedurama za učešće lokalnih zajednica u upravljanju vodama i kanalizacijom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/6-b-1",
+          "href": "/bs/6-b-1",
           "status": "complete"
         }]
     }
@@ -794,7 +794,7 @@
           "title": "Udio stanovništva sa pristupom električnoj energiji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/7-1-1",
+          "href": "/bs/7-1-1",
           "status": "complete"
         },
         {
@@ -802,7 +802,7 @@
           "title": "Udio stanovništva koje se primarno oslanja na čista goriva i tehnologiju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/7-1-2",
+          "href": "/bs/7-1-2",
           "status": "complete"
         },
         {
@@ -810,7 +810,7 @@
           "title": "Udio obnovljive energije u ukupnoj finalnoj potrošnji energije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/7-2-1",
+          "href": "/bs/7-2-1",
           "status": "complete"
         },
         {
@@ -818,7 +818,7 @@
           "title": "Energetski intenzitet mjeren kroz primarnu energiju i BDP",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/7-3-1",
+          "href": "/bs/7-3-1",
           "status": "complete"
         },
         {
@@ -826,7 +826,7 @@
           "title": "Međunarodni finansijski tokovi prema zemljama u razvoju kao podrška istraživanju i razvoju čiste energije i proizvodnji obnovljive energije, uključujući hibridne sisteme",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/7-a-1",
+          "href": "/bs/7-a-1",
           "status": "complete"
         },
         {
@@ -834,7 +834,7 @@
           "title": "Instalirani kapaciteti za proizvodnju obnovljive energije u zemljama u razvoju (u vatima po glavi stanovnika)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/7-b-1",
+          "href": "/bs/7-b-1",
           "status": "notstarted"
         }]
     }
@@ -850,7 +850,7 @@
           "title": "Godišnja stopa rasta realnog BDP-a po glavi stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-1-1",
+          "href": "/bs/8-1-1",
           "status": "complete"
         },
         {
@@ -858,7 +858,7 @@
           "title": "Godišnja stopa rasta realnog BDP-a po zaposlenoj osobi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-2-1",
+          "href": "/bs/8-2-1",
           "status": "complete"
         },
         {
@@ -866,7 +866,7 @@
           "title": "Udio neformalne zaposlenosti u ukupnoj zaposlenosti, po sektoru i polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-3-1",
+          "href": "/bs/8-3-1",
           "status": "complete"
         },
         {
@@ -874,7 +874,7 @@
           "title": "Materijalni otisak, materijalni otisak po glavi stanovnika i materijalni otisak po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-4-1",
+          "href": "/bs/8-4-1",
           "status": "notstarted"
         },
         {
@@ -882,7 +882,7 @@
           "title": "Domaća potrošnja materijala, domaća potrošnja materijala po stanovniku i domaća potrošnja materijala po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-4-2",
+          "href": "/bs/8-4-2",
           "status": "complete"
         },
         {
@@ -890,7 +890,7 @@
           "title": "Prosječne zarade zaposlenih po satu, prema polu, starosti, zanimanju i invaliditetu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-5-1",
+          "href": "/bs/8-5-1",
           "status": "complete"
         },
         {
@@ -898,7 +898,7 @@
           "title": "Stopa nezaposlenosti po spolu i starosti i stopa nezaposlenosti osoba sa invaliditetom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-5-2",
+          "href": "/bs/8-5-2",
           "status": "complete"
         },
         {
@@ -906,7 +906,7 @@
           "title": "Udio mladih (uzrasta od 15-24) koji nisu zaposleni, ne obrazuju se ili obučavaju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-6-1",
+          "href": "/bs/8-6-1",
           "status": "complete"
         },
         {
@@ -914,7 +914,7 @@
           "title": "Udio i ukupan broj djece uzrasta od 5 do 17 godina koja su uključena u dječji rad, prema spolu i starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-7-1",
+          "href": "/bs/8-7-1",
           "status": "notstarted"
         },
         {
@@ -922,7 +922,7 @@
           "title": "Smrtonosne i nesmrtonosne povrede na radu na 100.000 radnika, prema spolu i migrantskom statusu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-8-1",
+          "href": "/bs/8-8-1",
           "status": "notstarted"
         },
         {
@@ -930,7 +930,7 @@
           "title": "Stepen usklađenosti radnih prava na nacionalnom nivou (pravo na udruživanje i kolektivno pregovaranje) sa dokumentima Međunarodne organizacije rada (ILO) i nacionalnim zakonodavstvom, prema spolu i migrantskom statusu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-8-2",
+          "href": "/bs/8-8-2",
           "status": "complete"
         },
         {
@@ -938,7 +938,7 @@
           "title": "Dio BDP-a koji se odnosi na turizam kao udio u ukupnom BDP-u i stopi rasta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-9-1",
+          "href": "/bs/8-9-1",
           "status": "notstarted"
         },
         {
@@ -946,7 +946,7 @@
           "title": "(a) Broj filijala komercijalnih banaka na 100.000 odraslih stanovnika i (b) broj automatizovanih bankomata (ATM) na 100.000 odraslih stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-10-1",
+          "href": "/bs/8-10-1",
           "status": "complete"
         },
         {
@@ -954,7 +954,7 @@
           "title": "Udio odraslih stanovnika (starih 15 i više godina) koji imaju račun u banci ili drugoj finansijskoj instituciji ili kod pružaoca mobilnih novčanih usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-10-2",
+          "href": "/bs/8-10-2",
           "status": "complete"
         },
         {
@@ -962,7 +962,7 @@
           "title": "Preuzete obaveze i isplate u okviru Pomoći za trgovinu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-a-1",
+          "href": "/bs/8-a-1",
           "status": "complete"
         },
         {
@@ -970,7 +970,7 @@
           "title": "Postojanje razvijene i operacionalizovane nacionalne strategije za zapošljavanje mladih, kao posebne strategije ili kao dijela nacionalne strategije zapošljavanja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/8-b-1",
+          "href": "/bs/8-b-1",
           "status": "complete"
         }]
     }
@@ -986,7 +986,7 @@
           "title": "Udio ruralnog stanovništva koje živi u krugu od 2 km od puta koji je funkcionalan tokom cijele godine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-1-1",
+          "href": "/bs/9-1-1",
           "status": "notstarted"
         },
         {
@@ -994,7 +994,7 @@
           "title": "Obim putnika i tereta, prema vrsti transporta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-1-2",
+          "href": "/bs/9-1-2",
           "status": "complete"
         },
         {
@@ -1002,7 +1002,7 @@
           "title": "Dodatna vrijednost prerađivačke industrije kao udio BDP-a i po glavi stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-2-1",
+          "href": "/bs/9-2-1",
           "status": "complete"
         },
         {
@@ -1010,7 +1010,7 @@
           "title": "Zaposlenost u prerađivačkoj industriji kao udio u ukupnoj zaposlenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-2-2",
+          "href": "/bs/9-2-2",
           "status": "complete"
         },
         {
@@ -1018,7 +1018,7 @@
           "title": "Udio malih preduzeća u ukupnoj dodanoj vrijednosti prerađivačke industrije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-3-1",
+          "href": "/bs/9-3-1",
           "status": "complete"
         },
         {
@@ -1026,7 +1026,7 @@
           "title": "Udio malih industrijskih preduzeća koja imaju kredit ili kreditnu liniju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-3-2",
+          "href": "/bs/9-3-2",
           "status": "complete"
         },
         {
@@ -1034,7 +1034,7 @@
           "title": "Emisija CO2 po jedinici dodane vrijednosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-4-1",
+          "href": "/bs/9-4-1",
           "status": "complete"
         },
         {
@@ -1042,7 +1042,7 @@
           "title": "Izdaci za istraživanje i razvoj kao udio u BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-5-1",
+          "href": "/bs/9-5-1",
           "status": "complete"
         },
         {
@@ -1050,7 +1050,7 @@
           "title": "Istraživači izraženi ekvivalentom pune zaposlenosti na milion stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-5-2",
+          "href": "/bs/9-5-2",
           "status": "complete"
         },
         {
@@ -1058,7 +1058,7 @@
           "title": "Ukupna zvanična međunarodna podrška (zvanična razvojna pomoć plus drugi službeni tokovi) za infrastrukturu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-a-1",
+          "href": "/bs/9-a-1",
           "status": "complete"
         },
         {
@@ -1066,7 +1066,7 @@
           "title": "Udio dodane vrijednosti u srednje i visoko tehnološkim industrijama u ukupnoj dodanoj vrijednosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-b-1",
+          "href": "/bs/9-b-1",
           "status": "complete"
         },
         {
@@ -1074,7 +1074,7 @@
           "title": "Udio stanovništva pokrivenog mobilnom mrežom, prema tehnologijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/9-c-1",
+          "href": "/bs/9-c-1",
           "status": "complete"
         }]
     }
@@ -1090,7 +1090,7 @@
           "title": "Stopa rasta potrošnje domaćinstava ili prihoda po članu domaćinstva donjih 40% stanovništva i ukupnog stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-1-1",
+          "href": "/bs/10-1-1",
           "status": "notstarted"
         },
         {
@@ -1098,7 +1098,7 @@
           "title": "Udio stanovništva koji živi ispod 50% medijane prihoda, prema spolu, starosti i invalidnosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-2-1",
+          "href": "/bs/10-2-1",
           "status": "complete"
         },
         {
@@ -1106,7 +1106,7 @@
           "title": "Udio stanovništva koje je izjavilo da se lično osjećalo diskriminirano ili uznemiravano u posljednjih 12 mjeseci na osnovu diskriminacije zabranjene međunarodnim pravom o ljudskim pravima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-3-1",
+          "href": "/bs/10-3-1",
           "status": "notstarted"
         },
         {
@@ -1114,7 +1114,7 @@
           "title": "Udio prihoda od rada u BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-4-1",
+          "href": "/bs/10-4-1",
           "status": "complete"
         },
         {
@@ -1122,7 +1122,7 @@
           "title": "Redistributivni uticaj fiskalne politike, Gini indeks (%)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-4-2",
+          "href": "/bs/10-4-2",
           "status": "notstarted"
         },
         {
@@ -1130,7 +1130,7 @@
           "title": "Indikatori finansijske stabilnosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-5-1",
+          "href": "/bs/10-5-1",
           "status": "complete"
         },
         {
@@ -1138,7 +1138,7 @@
           "title": "Udio članova i glasačkih prava zemalja u razvoju u međunarodnim organizacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-6-1",
+          "href": "/bs/10-6-1",
           "status": "complete"
         },
         {
@@ -1146,7 +1146,7 @@
           "title": "Troškovi zapošljavanja koje snose zaposleni u odnosu na mjesečna primanja ostvarena u zemlji odredišta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-7-1",
+          "href": "/bs/10-7-1",
           "status": "notstarted"
         },
         {
@@ -1154,7 +1154,7 @@
           "title": "Broj zemalja sa migracionim politikama koje omogućavaju urednu, sigurnu, redovnu i odgovornu migraciju i mobilnost ljudi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-7-2",
+          "href": "/bs/10-7-2",
           "status": "complete"
         },
         {
@@ -1162,7 +1162,7 @@
           "title": "Broj ljudi koji su umrli ili nestali u procesu migracije prema međunarodnoj destinaciji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-7-3",
+          "href": "/bs/10-7-3",
           "status": "complete"
         },
         {
@@ -1170,7 +1170,7 @@
           "title": "Udio izbjegličke populacije, prema zemlji porijekla",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-7-4",
+          "href": "/bs/10-7-4",
           "status": "complete"
         },
         {
@@ -1178,7 +1178,7 @@
           "title": "Udio tarifnih stavki koje se primjenjuju na uvoz iz najmanje razvijenih zemalja i zemalja u razvoju sa nultom stopom carine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-a-1",
+          "href": "/bs/10-a-1",
           "status": "complete"
         },
         {
@@ -1186,7 +1186,7 @@
           "title": "Ukupni finansijski tokovi za razvoj, prema primaocima i zemljama donatorima, kao i prema vrsti tokova (npr. zvanična razvojna pomoć, direktne strane investicije i drugi tokovi)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-b-1",
+          "href": "/bs/10-b-1",
           "status": "complete"
         },
         {
@@ -1194,7 +1194,7 @@
           "title": "Troškovi prenosa sredstava kao udio u prenesenom iznosu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/10-c-1",
+          "href": "/bs/10-c-1",
           "status": "complete"
         }]
     }
@@ -1210,7 +1210,7 @@
           "title": "Udio gradskog stanovništva koje živi u sirotinjskim četvrtima, neformalnim naseljima ili neadekvatnim stambenim uslovima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-1-1",
+          "href": "/bs/11-1-1",
           "status": "complete"
         },
         {
@@ -1218,7 +1218,7 @@
           "title": "Udio stanovništva sa adekvatnim pristupom javnom prijevozu, prema polu, starosti i invaliditetu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-2-1",
+          "href": "/bs/11-2-1",
           "status": "complete"
         },
         {
@@ -1226,7 +1226,7 @@
           "title": "Odnos stope korištenja zemljišta i stope rasta stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-3-1",
+          "href": "/bs/11-3-1",
           "status": "complete"
         },
         {
@@ -1234,7 +1234,7 @@
           "title": "Udio gradova koji imaju strukture za direktno učešće civilnog društva u urbanističkom planiranju i upravljanju koje funkcionišu redovno i na demokratski način",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-3-2",
+          "href": "/bs/11-3-2",
           "status": "notstarted"
         },
         {
@@ -1242,7 +1242,7 @@
           "title": "Ukupni izdaci po glavi stanovnika utrošeni na očuvanje i zaštitu cjelokupnog kulturnog i prirodnog nasljeđa, prema vrsti finansiranja (javno, privatno), prema vrsti baštine (kulturna, prirodna), i nivou upravljanja (nacionalni, regionalni i lokalni)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-4-1",
+          "href": "/bs/11-4-1",
           "status": "complete"
         },
         {
@@ -1250,7 +1250,7 @@
           "title": "Broj smrtnih slučajeva, nestalih i direktno pogođenih nesrećama na 100.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-5-1",
+          "href": "/bs/11-5-1",
           "status": "notstarted"
         },
         {
@@ -1258,7 +1258,7 @@
           "title": "Direktni ekonomski gubitak koji se pripisuje katastrofama u odnosu na globalni bruto domaći proizvod (BDP)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-5-2",
+          "href": "/bs/11-5-2",
           "status": "complete"
         },
         {
@@ -1266,7 +1266,7 @@
           "title": "(a) Oštećenja kritične infrastrukture i (b) broj poremećaja u osnovnim uslugama koji se pripisuju katastrofama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-5-3",
+          "href": "/bs/11-5-3",
           "status": "notstarted"
         },
         {
@@ -1274,7 +1274,7 @@
           "title": "Udio čvrstog komunalnog otpada koji se sakuplja i kojim se adekvatno upravlja u kontroliranim objektima u ukupnom proizvedenom komunalnom otpadu, po gradovima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-6-1",
+          "href": "/bs/11-6-1",
           "status": "complete"
         },
         {
@@ -1282,7 +1282,7 @@
           "title": "Godišnje srednje vrijednosti finih čestica (npr. PM2,5 i PM10) u gradovima (ponderisani broj stanovnika)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-6-2",
+          "href": "/bs/11-6-2",
           "status": "complete"
         },
         {
@@ -1290,7 +1290,7 @@
           "title": "Prosječan udio otvorenih javnih površina u izgrađenim površinama gradova, prema spolu, starosti i invaliditetu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-7-1",
+          "href": "/bs/11-7-1",
           "status": "notstarted"
         },
         {
@@ -1298,7 +1298,7 @@
           "title": "Udio osoba koje su žrtve fizičkog ili seksualnog uznemiravanja, po spolu, starosti, invaliditetu, i mjestu dešavanja, tokom prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-7-2",
+          "href": "/bs/11-7-2",
           "status": "notstarted"
         },
         {
@@ -1306,7 +1306,7 @@
           "title": "Broj zemalja koje imaju nacionalne urbane politike ili planove regionalnog razvoja koji (a) odgovaraju na dinamiku stanovništva; (b) osiguravaju uravnotežen teritorijalni razvoj; i (c) povećavaju lokalni fiskalni prostor",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-a-1",
+          "href": "/bs/11-a-1",
           "status": "complete"
         },
         {
@@ -1314,7 +1314,7 @@
           "title": "Broj zemalja koje usvajaju i provode nacionalne strategije smanjenja rizika od katastrofa u skladu sa Sendai okvirom za smanjenje rizika od katastrofa za period 2015-2030",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-b-1",
+          "href": "/bs/11-b-1",
           "status": "notstarted"
         },
         {
@@ -1322,7 +1322,7 @@
           "title": "Udio jedinica lokalne samouprave koje donose i provode lokalne strategije za smanjenje rizika od katastrofa u skladu s nacionalnom strategijom za smanjenje rizika od katastrofa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-b-2",
+          "href": "/bs/11-b-2",
           "status": "complete"
         },
         {
@@ -1330,7 +1330,7 @@
           "title": "Trenutno nema dostupnih podataka za ovaj indikator i njegova metodologija je još uvijek u fazi razvoja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/11-c-1",
+          "href": "/bs/11-c-1",
           "status": "notstarted"
         }]
     }
@@ -1346,7 +1346,7 @@
           "title": "Broj zemalja koje razvijaju, usvajaju ili provode instrumente politike čiji je cilj podrška prelasku na održivu potrošnju i proizvodnju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-1-1",
+          "href": "/bs/12-1-1",
           "status": "notstarted"
         },
         {
@@ -1354,7 +1354,7 @@
           "title": "Materijalni otisak, materijalni otisak po glavi stanovnika i materijalni otisak po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-2-1",
+          "href": "/bs/12-2-1",
           "status": "notstarted"
         },
         {
@@ -1362,7 +1362,7 @@
           "title": "Domaća potrošnja materijala, domaća potrošnja materijala po stanovniku i domaća potrošnja materijala po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-2-2",
+          "href": "/bs/12-2-2",
           "status": "complete"
         },
         {
@@ -1370,7 +1370,7 @@
           "title": "(a) Indeks gubitka hrane (b) Indeks otpada od hrane",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-3-1",
+          "href": "/bs/12-3-1",
           "status": "complete"
         },
         {
@@ -1378,7 +1378,7 @@
           "title": "Broj zemalja potpisnica međunarodnih multilateralnih sporazuma o upravljanju opasnim otpadom i hemikalijama koje ispunjavaju svoje obaveze u pogledu prijenosa informacija, kako se zahtijeva svakim relevantnim sporazumom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-4-1",
+          "href": "/bs/12-4-1",
           "status": "complete"
         },
         {
@@ -1386,7 +1386,7 @@
           "title": "(a) Količina proizvedenog opasnog otpada po glavi stanovnika; i (b) udio tretiranog opasnog otpada prema vrsti tretmana",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-4-2",
+          "href": "/bs/12-4-2",
           "status": "complete"
         },
         {
@@ -1394,7 +1394,7 @@
           "title": "Nacionalna stopa recikliranja, tone recikliranog materijala",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-5-1",
+          "href": "/bs/12-5-1",
           "status": "complete"
         },
         {
@@ -1402,7 +1402,7 @@
           "title": "Broj kompanija koje objavljuju izvještaje o održivosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-6-1",
+          "href": "/bs/12-6-1",
           "status": "complete"
         },
         {
@@ -1410,7 +1410,7 @@
           "title": "Broj zemalja koje provode politike i akcione planove održivih javnih nabavki",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-7-1",
+          "href": "/bs/12-7-1",
           "status": "notstarted"
         },
         {
@@ -1418,7 +1418,7 @@
           "title": "Mjera u kojoj su obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj uključeni u (a) nacionalne obrazovne politike; (b) nastavne planove i programe; (c) obrazovanje nastavnika; i (d) ocjenjivanje studenata",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-8-1",
+          "href": "/bs/12-8-1",
           "status": "complete"
         },
         {
@@ -1426,7 +1426,7 @@
           "title": "Instalirani kapaciteti za proizvodnju obnovljive energije u zemljama u razvoju (u vatima po glavi stanovnika)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-a-1",
+          "href": "/bs/12-a-1",
           "status": "notstarted"
         },
         {
@@ -1434,7 +1434,7 @@
           "title": "Primjena standardnih računovodstvenih alata za praćenje ekonomskih i ekoloških aspekata održivosti turizma",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-b-1",
+          "href": "/bs/12-b-1",
           "status": "complete"
         },
         {
@@ -1442,7 +1442,7 @@
           "title": "Iznos subvencija za fosilna goriva (proizvodnja i potrošnja) po jedinici BDP-a",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/12-c-1",
+          "href": "/bs/12-c-1",
           "status": "complete"
         }]
     }
@@ -1458,7 +1458,7 @@
           "title": "Broj umrlih, nestalih osoba i osoba direktno pogođenih katastrofama na 100 000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-1-1",
+          "href": "/bs/13-1-1",
           "status": "complete"
         },
         {
@@ -1466,7 +1466,7 @@
           "title": "Broj zemalja koje usvajaju i provode nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai okvirom za smanjenje rizika od katastrofa za period 2015-2030",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-1-2",
+          "href": "/bs/13-1-2",
           "status": "complete"
         },
         {
@@ -1474,7 +1474,7 @@
           "title": "Udio jedinica lokalne samouprave koje usvajaju i provode lokalne strategije za smanjenje rizika od katastrofa u skladu sa nacionalnim strategijama smanjenja rizika od katastrofa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-1-3",
+          "href": "/bs/13-1-3",
           "status": "complete"
         },
         {
@@ -1482,7 +1482,7 @@
           "title": "Broj zemalja sa nacionalno utvrđenim doprinosima, dugoročnim strategijama, nacionalnim planovima prilagođavanja i komunikacijama o prilagođavanju, kako je prijavljeno sekretarijatu Okvirne konvencije Ujedinjenih nacija o klimatskim promjenama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-2-1",
+          "href": "/bs/13-2-1",
           "status": "notstarted"
         },
         {
@@ -1490,7 +1490,7 @@
           "title": "Ukupne godišnje emisije gasova sa efektom staklene bašte",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-2-2",
+          "href": "/bs/13-2-2",
           "status": "complete"
         },
         {
@@ -1498,7 +1498,7 @@
           "title": "Mjera u kojoj su obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj uključeni u (a) nacionalne obrazovne politike; (b) nastavne planove i programe; (c) obrazovanje nastavnika; i (d) ocjenjivanje studenata",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-3-1",
+          "href": "/bs/13-3-1",
           "status": "complete"
         },
         {
@@ -1506,7 +1506,7 @@
           "title": "Obezbijeđeni i mobilisani iznosi u američkim dolarima na godišnjem nivou u odnosu na kontinuirani postojeći kolektivni mobilizacijski cilj dostizanja preuzete obaveze u iznosu od 100 milijardi USD do 2025. godine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-a-1",
+          "href": "/bs/13-a-1",
           "status": "notstarted"
         },
         {
@@ -1514,7 +1514,7 @@
           "title": "Broj najmanje razvijenih zemalja i malih ostrvskih država u razvoju sa nacionalno određenim doprinosima, dugoročnim strategijama, nacionalnim planovima prilagođavanja i komunikacijama o prilagođavanju, kako je prijavljeno sekretarijatu Okvirne konvencije Ujedinjenih nacija o klimatskim promjenama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/13-b-1",
+          "href": "/bs/13-b-1",
           "status": "notstarted"
         }]
     }
@@ -1530,7 +1530,7 @@
           "title": "(a) Indeks obalne eutrofikacije; i (b) gustoća plastičnog otpada",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-1-1",
+          "href": "/bs/14-1-1",
           "status": "complete"
         },
         {
@@ -1538,7 +1538,7 @@
           "title": "Broj zemalja koje koriste pristupe zasnovane na ekosistemima u upravljanju morem",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-2-1",
+          "href": "/bs/14-2-1",
           "status": "notstarted"
         },
         {
@@ -1546,7 +1546,7 @@
           "title": "Prosječna kiselost mora (pH) mjerena na dogovorenom skupu reprezentativnih stanica za uzorkovanje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-3-1",
+          "href": "/bs/14-3-1",
           "status": "notstarted"
         },
         {
@@ -1554,7 +1554,7 @@
           "title": "Udio ribljeg fonda unutar biološki održivog nivoa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-4-1",
+          "href": "/bs/14-4-1",
           "status": "notstarted"
         },
         {
@@ -1562,7 +1562,7 @@
           "title": "Pokrivenost zaštićenih područja u odnosu na morska područja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-5-1",
+          "href": "/bs/14-5-1",
           "status": "complete"
         },
         {
@@ -1570,7 +1570,7 @@
           "title": "Stepen implementacije međunarodnih instrumenata usmjerenih na borbu protiv nelegalnog, neprijavljenog i neregulisanog ribolova",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-6-1",
+          "href": "/bs/14-6-1",
           "status": "notstarted"
         },
         {
@@ -1578,7 +1578,7 @@
           "title": "Održivo ribarstvo kao udio  BDP-a u malim ostrvskim zemljama u razvoju, najmanje razvijenim zemljama i svim zemljama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-7-1",
+          "href": "/bs/14-7-1",
           "status": "complete"
         },
         {
@@ -1586,7 +1586,7 @@
           "title": "Udio u ukupnom budžetu za razvoj koji se izdvaja za istraživanja u oblasti pomorskih tehnologija",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-a-1",
+          "href": "/bs/14-a-1",
           "status": "notstarted"
         },
         {
@@ -1594,7 +1594,7 @@
           "title": "Napredak zemalja prema stepenu primjene pravnog/regulatornog/političkog/institucionalnog okvira koji priznaje i štiti prava pristupa malom ribolovu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-b-1",
+          "href": "/bs/14-b-1",
           "status": "notstarted"
         },
         {
@@ -1602,7 +1602,7 @@
           "title": "Broj zemalja koje napreduju u ratifikaciji, prihvatanju i implementaciji instrumenata koji se odnose na okeane, kroz pravne, političke i institucionalne okvire koji služe za implementaciju međunarodnog prava,a  kako je predviđeno Konvencijom Ujedinjenih nacija o pravu mora, za očuvanje i održivo korištenje okeana i njihovih resursa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/14-c-1",
+          "href": "/bs/14-c-1",
           "status": "notstarted"
         }]
     }
@@ -1618,7 +1618,7 @@
           "title": "Površina pod šumama kao udio u ukupnoj kopnenoj površini",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-1-1",
+          "href": "/bs/15-1-1",
           "status": "complete"
         },
         {
@@ -1626,7 +1626,7 @@
           "title": "Udio lokacija važnih za kopneni i slatkovodni biodiverzitet, koje su obuhvaćene zaštićenim područjima, prema vrsti ekosistema",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-1-2",
+          "href": "/bs/15-1-2",
           "status": "complete"
         },
         {
@@ -1634,7 +1634,7 @@
           "title": "Napredak prema održivom upravljanju šumama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-2-1",
+          "href": "/bs/15-2-1",
           "status": "complete"
         },
         {
@@ -1642,7 +1642,7 @@
           "title": "Udio degradiranog zemljišta u odnosu na ukupnu površinu zemljišta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-3-1",
+          "href": "/bs/15-3-1",
           "status": "complete"
         },
         {
@@ -1650,7 +1650,7 @@
           "title": "Udio važnih lokacija planinskog biodiverziteta pokrivenih zaštićenim područjima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-4-1",
+          "href": "/bs/15-4-1",
           "status": "complete"
         },
         {
@@ -1658,7 +1658,7 @@
           "title": "(a) Indeks planinskog zelenog pokrivača i (b) udio degradiranog planinskog zemljišta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-4-2",
+          "href": "/bs/15-4-2",
           "status": "complete"
         },
         {
@@ -1666,7 +1666,7 @@
           "title": "Indeks crvene liste",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-5-1",
+          "href": "/bs/15-5-1",
           "status": "complete"
         },
         {
@@ -1674,7 +1674,7 @@
           "title": "Broj zemalja koje su usvojile zakonodavne, administrativne i političke okvire kako bi osigurale pravednu i pravičnu raspodjelu beneficija",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-6-1",
+          "href": "/bs/15-6-1",
           "status": "complete"
         },
         {
@@ -1682,7 +1682,7 @@
           "title": "Udio divljih vrsta kojima se trguje koje potiču od krivolova ili nezakonite trgovine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-7-1",
+          "href": "/bs/15-7-1",
           "status": "notstarted"
         },
         {
@@ -1690,7 +1690,7 @@
           "title": "Udio zemalja koje usvajaju relevantno nacionalno zakonodavstvo i izdvajaju adekvatna sredstva za prevenciju ili kontrolu invazivnih stranih vrsta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-8-1",
+          "href": "/bs/15-8-1",
           "status": "complete"
         },
         {
@@ -1698,7 +1698,7 @@
           "title": "(a) Broj zemalja koje su postavile nacionalne ciljeve u skladu sa ili slične Aichi cilju 2 za biodiverzitet iz Strateškog plana za biodiverzitet 2011-2020 u svojim nacionalnim strategijama za biodiverzitet i akcionim planovima i napretku koji je izvještavan prema tim ciljevima; i (b) integraciju biodiverziteta u nacionalne sisteme računovodstva i izvještavanja, definisanih kao primjena Sistema ekološko-ekonomskog računovodstva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-9-1",
+          "href": "/bs/15-9-1",
           "status": "complete"
         },
         {
@@ -1706,7 +1706,7 @@
           "title": "(a) Zvanična razvojna pomoć za očuvanje i održivo korištenje biodiverziteta i ekosistema; i (b) ostvareni prihod i finansijska sredstva mobilizirana iz ekonomskih instrumenata važnih za biodiverzitet",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-a-1",
+          "href": "/bs/15-a-1",
           "status": "complete"
         },
         {
@@ -1714,7 +1714,7 @@
           "title": "(a) Zvanična razvojna pomoć za očuvanje i održivo korištenje biodiverziteta i ekosistema; i (b) ostvareni prihod i finansijska sredstva mobilizirana iz ekonomskih instrumenata važnih za biodiverzitet",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-b-1",
+          "href": "/bs/15-b-1",
           "status": "complete"
         },
         {
@@ -1722,7 +1722,7 @@
           "title": "Udio divljih vrsta kojima se trguje, a potiču od krivolova ili ilegalne trgovine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/15-c-1",
+          "href": "/bs/15-c-1",
           "status": "notstarted"
         }]
     }
@@ -1738,7 +1738,7 @@
           "title": "Broj žrtava ubistva sa namjerom na 100.000 stanovnika, po polu i starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-1-1",
+          "href": "/bs/16-1-1",
           "status": "complete"
         },
         {
@@ -1746,7 +1746,7 @@
           "title": "Smrtni slučajevi povezani sa sukobima na 100 000 stanovnika, po spolu, starosti i uzroku",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-1-2",
+          "href": "/bs/16-1-2",
           "status": "notstarted"
         },
         {
@@ -1754,7 +1754,7 @@
           "title": "Udio stanovništva koje je bilo izloženo (a) fizičkom nasilju, (b) psihičkom nasilju i (c) seksualnom nasilju u prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-1-3",
+          "href": "/bs/16-1-3",
           "status": "notstarted"
         },
         {
@@ -1762,7 +1762,7 @@
           "title": "Udio osoba koja se osjećaju sigurno kada sami hodaju u području u kojem žive",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-1-4",
+          "href": "/bs/16-1-4",
           "status": "notstarted"
         },
         {
@@ -1770,7 +1770,7 @@
           "title": "Udio djece od 1 do 17 godina koja su doživjela bilo kakvo fizičko kažnjavanje i/ili psihološku agresiju od strane roditelja/staratelja u posljednjih mjesec dana",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-2-1",
+          "href": "/bs/16-2-1",
           "status": "complete"
         },
         {
@@ -1778,7 +1778,7 @@
           "title": "Broj žrtava trgovine ljudima na 100.000 stanovnika, prema polu, starosti i obliku eksploatacije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-2-2",
+          "href": "/bs/16-2-2",
           "status": "complete"
         },
         {
@@ -1786,7 +1786,7 @@
           "title": "Udio mladih žena i muškaraca u dobi od 18 do 29 godina koji su doživjeli seksualno nasilje do 18. godine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-2-3",
+          "href": "/bs/16-2-3",
           "status": "notstarted"
         },
         {
@@ -1794,7 +1794,7 @@
           "title": "Udio žrtava nasilja u proteklih 12 mjeseci koji su svoju viktimizaciju prijavili nadležnim organima ili drugim službeno priznatim mehanizmima za rješavanje sukoba",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-3-1",
+          "href": "/bs/16-3-1",
           "status": "notstarted"
         },
         {
@@ -1802,7 +1802,7 @@
           "title": "Neosuđeni pritvorenici kao udio u ukupnoj zatvorskoj populaciji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-3-2",
+          "href": "/bs/16-3-2",
           "status": "complete"
         },
         {
@@ -1810,7 +1810,7 @@
           "title": "Ukupna vrijednost unutrašnjih i vanjskih nezakonitih finansijskih tokova (u tekućim američkim dolarima)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-4-1",
+          "href": "/bs/16-4-1",
           "status": "notstarted"
         },
         {
@@ -1818,7 +1818,7 @@
           "title": "Udio oduzetog, pronađenog ili predatog oružja čije je nezakonito porijeklo ili okolnosti otkrio ili utvrdio nadležni organ u skladu sa međunarodnim instrumentima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-4-2",
+          "href": "/bs/16-4-2",
           "status": "notstarted"
         },
         {
@@ -1826,7 +1826,7 @@
           "title": "Udio osoba koje su imale barem jedan kontakt s javnim službenikom i koji su platili mito javnom službeniku ili im je javni službenik tražio mito tokom proteklih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-5-1",
+          "href": "/bs/16-5-1",
           "status": "complete"
         },
         {
@@ -1834,7 +1834,7 @@
           "title": "Udio poslovnih subjekata koja su imala barem jedan kontakt sa javnim službenikom i koja su platila mito javnom službeniku, ili su im ti javni službenici tražili mito tokom prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-5-2",
+          "href": "/bs/16-5-2",
           "status": "complete"
         },
         {
@@ -1842,7 +1842,7 @@
           "title": "Osnovni državni rashodi po sektorima kao udio u prvobitno odobrenom budžetu (ili budžetskim kodovima ili slično)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-6-1",
+          "href": "/bs/16-6-1",
           "status": "complete"
         },
         {
@@ -1850,7 +1850,7 @@
           "title": "Udio stanovništva koje je zadovoljno svojim posljednjim iskustvom sa javnim uslugama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-6-2",
+          "href": "/bs/16-6-2",
           "status": "notstarted"
         },
         {
@@ -1858,7 +1858,7 @@
           "title": "Udjeli radnih mjesta u nacionalnim i lokalnim institucijama, uključujući (a) zakonodavna tijela; (b) javne usluge; i (c) pravosuđe, u poređenju sa distribucijom na nacionalnom nivou, prema polu, starosti, osobama sa invaliditetom i grupama stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-7-1",
+          "href": "/bs/16-7-1",
           "status": "complete"
         },
         {
@@ -1866,7 +1866,7 @@
           "title": "Udio stanovništva koji vjeruje da je donošenje odluka inkluzivno i odgovorno, prema spolu, starosti, invalidnosti i grupi stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-7-2",
+          "href": "/bs/16-7-2",
           "status": "notstarted"
         },
         {
@@ -1874,7 +1874,7 @@
           "title": "Udio članova i glasačkih prava zemalja u razvoju u međunarodnim organizacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-8-1",
+          "href": "/bs/16-8-1",
           "status": "complete"
         },
         {
@@ -1882,7 +1882,7 @@
           "title": "Udio djece mlađe od 5 godina čija su rođenja registrovana u matičnim knigama, prema starosnoj dobi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-9-1",
+          "href": "/bs/16-9-1",
           "status": "complete"
         },
         {
@@ -1890,7 +1890,7 @@
           "title": "Broj potvrđenih slučajeva ubistava, otmica, prisilnih nestanaka, proizvoljnih pritvaranja i mučenja novinara, pripadnika medija, sindikalaca i aktivista za ljudska prava u posljednjih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-10-1",
+          "href": "/bs/16-10-1",
           "status": "notstarted"
         },
         {
@@ -1898,7 +1898,7 @@
           "title": "Broj zemalja koje usvajaju i provode ustavne, zakonske i/ili političke odredbe kojima se osigurava pristup javnosti informacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-10-2",
+          "href": "/bs/16-10-2",
           "status": "complete"
         },
         {
@@ -1906,7 +1906,7 @@
           "title": "Postojanje nezavisnih nacionalnih institucija za ljudska prava u skladu sa Pariskim principima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-a-1",
+          "href": "/bs/16-a-1",
           "status": "complete"
         },
         {
@@ -1914,7 +1914,7 @@
           "title": "Udio stanovništva koji je izjavio da se lično osjeća diskriminirano ili uznemiravano u proteklih 12 mjeseci na osnovu diskriminacije zabranjene međunarodnim pravom o ljudskim pravima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/16-b-1",
+          "href": "/bs/16-b-1",
           "status": "notstarted"
         }]
     }
@@ -1930,7 +1930,7 @@
           "title": "Ukupni državni prihod kao udio u BDP-u, po izvoru",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-1-1",
+          "href": "/bs/17-1-1",
           "status": "complete"
         },
         {
@@ -1938,7 +1938,7 @@
           "title": "Udio domaćeg budžeta koji se finansira prihodima od domaćih poreza",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-1-2",
+          "href": "/bs/17-1-2",
           "status": "complete"
         },
         {
@@ -1946,7 +1946,7 @@
           "title": "Neto zvanična razvojna pomoć, ukupna i pomoć najmanje razvijenim zemljama, kao udio u bruto nacionalnom dohotku (GNI) donatora Komiteta razvojne pomoći Organizacije za ekonomsku saradnju i razvoj (OECD)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-2-1",
+          "href": "/bs/17-2-1",
           "status": "notstarted"
         },
         {
@@ -1954,7 +1954,7 @@
           "title": "Dodatna finansijska sredstva mobilizirana za zemlje u razvoju iz više izvora",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-3-1",
+          "href": "/bs/17-3-1",
           "status": "complete"
         },
         {
@@ -1962,7 +1962,7 @@
           "title": "Iznos doznaka (USD) kao udio u ukupnom BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-3-2",
+          "href": "/bs/17-3-2",
           "status": "complete"
         },
         {
@@ -1970,7 +1970,7 @@
           "title": "Otplata duga kao udio u izvozu roba i usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-4-1",
+          "href": "/bs/17-4-1",
           "status": "complete"
         },
         {
@@ -1978,7 +1978,7 @@
           "title": "Broj zemalja koje usvajaju i provode programe promocije ulaganja za zemlje u razvoju, uključujući najmanje razvijene zemlje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-5-1",
+          "href": "/bs/17-5-1",
           "status": "notstarted"
         },
         {
@@ -1986,7 +1986,7 @@
           "title": "Broj pretplatnika fiksnog širokopojasnog interneta na 100 stanovnika, prema brzini",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-6-1",
+          "href": "/bs/17-6-1",
           "status": "complete"
         },
         {
@@ -1994,7 +1994,7 @@
           "title": "Ukupan iznos finansiranja za zemlje u razvoju za promociju, transfer i širenje ekološki prihvatljivih tehnologija",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-7-1",
+          "href": "/bs/17-7-1",
           "status": "complete"
         },
         {
@@ -2002,7 +2002,7 @@
           "title": "Udio pojedinaca koji koriste Internet (%)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-8-1",
+          "href": "/bs/17-8-1",
           "status": "complete"
         },
         {
@@ -2010,7 +2010,7 @@
           "title": "Vrijednost finansijske i tehničke pomoći, izražene u američkim dolarima (uključujući pomoć kroz saradnju Sjever-Jug, Jug-Jug i trostrane saradnje), namijenjene zemljama u razvoju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-9-1",
+          "href": "/bs/17-9-1",
           "status": "complete"
         },
         {
@@ -2018,7 +2018,7 @@
           "title": "Svjetski ponderisani prosjek carina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-10-1",
+          "href": "/bs/17-10-1",
           "status": "complete"
         },
         {
@@ -2026,7 +2026,7 @@
           "title": "Udio zemalja u razvoju i najmanje razvijenih zemalja u svjetskom izvozu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-11-1",
+          "href": "/bs/17-11-1",
           "status": "complete"
         },
         {
@@ -2034,7 +2034,7 @@
           "title": "Ponderisane prosječne carine koje se primjenjuju na zemlje u razvoju, najmanje razvijene zemlje i male ostrvske zemlje u razvoju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-12-1",
+          "href": "/bs/17-12-1",
           "status": "complete"
         },
         {
@@ -2042,7 +2042,7 @@
           "title": "Glavni makroekonomski pokazatelji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-13-1",
+          "href": "/bs/17-13-1",
           "status": "complete"
         },
         {
@@ -2050,7 +2050,7 @@
           "title": "Broj zemalja sa uspostavljenim mehanizmima za poboljšanje usklađenosti politika održivog razvoja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-14-1",
+          "href": "/bs/17-14-1",
           "status": "notstarted"
         },
         {
@@ -2058,7 +2058,7 @@
           "title": "Mjera u kojoj se koriste nacionalni okviri rezultata i instrumenti planiranja od strane pružaoca razvojne saradnje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-15-1",
+          "href": "/bs/17-15-1",
           "status": "complete"
         },
         {
@@ -2066,7 +2066,7 @@
           "title": "Broj zemalja koje izvještavaju o napretku kroz multiagencijske okvire za praćenje efektivnosti razvoja koji podržavaju postizanje Ciljeva održivog razvoja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-16-1",
+          "href": "/bs/17-16-1",
           "status": "notstarted"
         },
         {
@@ -2074,7 +2074,7 @@
           "title": "Iznos u američkim dolarima namijenjen javno-privatnim partnerstvima za infrastrukturu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-17-1",
+          "href": "/bs/17-17-1",
           "status": "complete"
         },
         {
@@ -2082,7 +2082,7 @@
           "title": "Indikator statističkih kapaciteta za praćenje ciljeva održivog razvoja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-18-1",
+          "href": "/bs/17-18-1",
           "status": "notstarted"
         },
         {
@@ -2090,7 +2090,7 @@
           "title": "Broj zemalja koje imaju nacionalno statističko zakonodavstvo koje je u skladu sa Osnovnim principima zvanične statistike",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-18-2",
+          "href": "/bs/17-18-2",
           "status": "complete"
         },
         {
@@ -2098,7 +2098,7 @@
           "title": "Broj zemalja sa nacionalnim statističkim planom za koji su obezbijeđena financijska sredstva i koji se provodi, prema izvoru finansiranja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-18-3",
+          "href": "/bs/17-18-3",
           "status": "complete"
         },
         {
@@ -2106,7 +2106,7 @@
           "title": "Vrijednost (izražena u američkim dolarima) svih resursa stavljenih na raspolaganje za jačanje statističkih kapaciteta u zemljama u razvoju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-19-1",
+          "href": "/bs/17-19-1",
           "status": "complete"
         },
         {
@@ -2114,7 +2114,7 @@
           "title": "Udio zemalja koje su (a) u posljednjih 10 godina izvršile najmanje jedan popis stanovništva, domaćinstava i stanova i (b) ostvarile 100 posto registraciju rođenih i 80 posto registraciju umrlih",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/17-19-2",
+          "href": "/bs/17-19-2",
           "status": "complete"
         }]
     }
@@ -2130,7 +2130,7 @@
           "title": "Bruto domaći proizvod, proizvodni pristup",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/gross-domestic-product",
+          "href": "/bs/covid-19-impact/gross-domestic-product",
           "status": "complete"
         }]
     }
@@ -2146,7 +2146,7 @@
           "title": "Prihodi od indirektnih poreza",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/evenue-from-indirect-taxes",
+          "href": "/bs/covid-19-impact/evenue-from-indirect-taxes",
           "status": "complete"
         }]
     }
@@ -2162,7 +2162,7 @@
           "title": "Izvoz i uvoz u BiH",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/bih-exports-imports",
+          "href": "/bs/covid-19-impact/bih-exports-imports",
           "status": "complete"
         }]
     }
@@ -2178,7 +2178,7 @@
           "title": "Promet industrije – godišnje stope promjena izračunate iz kalendarski prilagođenih indeksa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/industrial-turnover",
+          "href": "/bs/covid-19-impact/industrial-turnover",
           "status": "complete"
         }]
     }
@@ -2194,7 +2194,7 @@
           "title": "Mjesečni indeksi proizvođačkih cijena industrije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/monthly-producer-price",
+          "href": "/bs/covid-19-impact/monthly-producer-price",
           "status": "complete"
         }]
     }
@@ -2210,7 +2210,7 @@
           "title": "Indeksi prometa trgovine na malo, 2015=100",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/retail-trade-indices",
+          "href": "/bs/covid-19-impact/retail-trade-indices",
           "status": "complete"
         }]
     }
@@ -2226,7 +2226,7 @@
           "title": "Prosječne mjesečne plaće zaposlenih",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/average-monthly-earnings",
+          "href": "/bs/covid-19-impact/average-monthly-earnings",
           "status": "complete"
         }]
     }
@@ -2242,7 +2242,7 @@
           "title": "Radna snaga u BiH prema administrativnim izvorima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/labour-force-of-bih",
+          "href": "/bs/covid-19-impact/labour-force-of-bih",
           "status": "complete"
         }]
     }
@@ -2258,7 +2258,7 @@
           "title": "Cestovni saobraćaj",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/road-transport",
+          "href": "/bs/covid-19-impact/road-transport",
           "status": "complete"
         }]
     }
@@ -2274,7 +2274,7 @@
           "title": "Žеljеznički saobraćaj",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/railway-transport",
+          "href": "/bs/covid-19-impact/railway-transport",
           "status": "complete"
         }]
     }
@@ -2290,7 +2290,7 @@
           "title": "Vаzdušni saobraćaj",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/air-transport",
+          "href": "/bs/covid-19-impact/air-transport",
           "status": "complete"
         }]
     }
@@ -2306,7 +2306,7 @@
           "title": "Granični promet putnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/cross-border-traffic",
+          "href": "/bs/covid-19-impact/cross-border-traffic",
           "status": "complete"
         }]
     }
@@ -2322,7 +2322,7 @@
           "title": "Noćenja turista",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/tourist-nights",
+          "href": "/bs/covid-19-impact/tourist-nights",
           "status": "complete"
         }]
     }
@@ -2338,7 +2338,7 @@
           "title": "Snabdijevanje električnom energijom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-fbih/bs/covid-19-impact/electricity-supply",
+          "href": "/bs/covid-19-impact/electricity-supply",
           "status": "complete"
         }]
     }
