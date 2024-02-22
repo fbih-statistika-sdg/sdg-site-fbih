@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240222122452">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240222123927">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -150,20 +150,27 @@ var translations = {
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
+  <div class="container">
+  <div class="disclaimer-alert">
+    <strong class="phase-tag">Алфа</strong>
+    
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:sdg@bhas.gov.ba">повратне информације</a>.
+  </div>
+</div>
+
 </div>
 
 <header role="banner">
-   <div class="container">
+  <div class="container">
 
-      <div class="logo-and-mobile-widgets">
-         <a class="navbar-brand" href="/sr/" id="home">
-            <img src="/assets/img/logo/sr/SDG_logo.png"
-               alt="Циљеви одрживог развоја - 17 циљева за трансформирање нашег свијета" />
-         </a>
+    <div class="logo-and-mobile-widgets">
+      <a class="navbar-brand" href="/sr/" id="home">
+        <img src="/assets/img/logo/sr/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформирање нашег свијета" />
+      </a>
 
-         <div class="mobile-widgets">
-            <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-               <div class="language-toggle-container">
+      <div class="mobile-widgets">
+        <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+          <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -185,16 +192,17 @@ var translations = {
   </div>
 </div>
 
-            </div></div>
-      </div>
-      <div class="supp-by">menu.supported_by<a href="https://ba.unfpa.org/"
-            target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></div>
+        </div></div>
+    </div>
 
-      <nav class="navbar navbar-default" id="main-nav">
+    <nav class="navbar navbar-default" id="main-nav">
 
-         <ul class="top-level">
-            <li id="menuToggle" aria-label="" aria-haspopup="true">
-               <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
+      <ul class="top-level">
+        <li id="menuToggle"
+            aria-label=""
+            aria-haspopup="true">
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
+          <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/sr/goals">Циљеви</a>
     </li><li class="nav-link ">
     <a href="/sr/reporting-status">Статус извјештавања</a>
@@ -238,9 +246,12 @@ var translations = {
 </li>
 </ul>
 
-            </li>
-            <li id="searchToggle" aria-label="" aria-haspopup="true">
-               <div id="search-mobile" class="menu-target">
+        </li>
+        <li id="searchToggle"
+            aria-label=""
+            aria-haspopup="true">
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
+          <div id="search-mobile" class="menu-target">
   <form action="/sr/search">
     <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
@@ -248,10 +259,10 @@ var translations = {
   </form>
 </div>
 
-            </li>
-         </ul>
+        </li>
+      </ul>
 
-         <div id="search" class="menu-target">
+      <div id="search" class="menu-target">
   <form action="/sr/search">
     <label class="sr-only" for="indicator_search">Претраживање</label>
     <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
@@ -260,7 +271,7 @@ var translations = {
 </div>
 
 
-         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
     <a href="/sr/goals">Циљеви</a>
     </li><li class="nav-link ">
     <a href="/sr/reporting-status">Статус извјештавања</a>
@@ -305,13 +316,12 @@ var translations = {
 </ul>
 
 
-      </nav>
-   </div>
+    </nav>
+  </div>
 
 </header>
 <div id="top" tabindex=-1></div>
 
-<a id="back-to-top" href="#"></a>
 
 <script type="text/template" id="item_template">
   <% _.each(fields, function(fieldItem) { %>
@@ -1977,12 +1987,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20240222122452'></script>
+<script src='/assets/js/sdg.js?v=20240222123927'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240222122452"></script><script>
+    <script src="/assets/js/custom.js?v=20240222123927"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
