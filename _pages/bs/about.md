@@ -5,7 +5,7 @@ permalink: /bs/about/
 layout: page
 ---
 
-Ova web stranica služi za diseminaciju podataka o globalnim SDG indikatorima za Federaciju Bosne i Hercegovinu. Uz podršku UNFPA BiH (United Nations Population Fund in Bosnia and Herzegovina) stranicu je kreirao i održava Federalni zavod za statistiku. 
+Ova web stranica služi za diseminaciju podataka o globalnim SDG indikatorima za Federaciju Bosne i Hercegovine. Uz podršku UNFPA BiH (United Nations Population Fund in Bosnia and Herzegovina) stranicu je kreirao i održava Federalni zavod za statistiku. 
 Bosna i Hercegovina je 2016. godine krenula na svoje participativno i istraživačko putovanje u 2030. Agenda 2030 i Ciljevi održivog razvoja u Bosni i Hercegovini zvanično su predstavljeni u aprilu 2017. godine, na SDG konferenciji visokog nivoa organizovanoj pod pokroviteljstvom Predsjedništva Bosne i Hercegovine.
 
 Prvi Dobrovoljni izvještaj Bosne i Hercegovine o provođenju Agende 2030. i ciljeva održivog razvoja predstavljen je u julu 2019. godine na Političkom forumu na visokom nivou (HLPF) u New Yorku. Dokument su pripremile relevantne institucije na svim administrativnim nivoima u Bosni i Hercegovini. Dobrovoljni izvještaj informiše o procesu poduzetom u zemlji i dalje se koristi kao referentni dokument za sve kasnije procese strateškog planiranja u institucijama Bosne i Hercegovine i na svim ostalim nivoima.
