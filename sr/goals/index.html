@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>custom.indicator_title</title>
+    <title>Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20251108020413">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20251109022038">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -141,15 +141,15 @@ var translations = {
 <body class="language-sr layout-goals">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задани контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформирање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag"></strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:sdg@bhas.gov.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/sr/" id="home">
-        <img src="/assets/img/logo/sr/SDG_logo.png" alt=" - " />
+        <img src="/assets/img/logo/sr/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформирање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,19 +169,19 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Српски</span>
       <span class="language-abbreviation">sr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/goals/">
-              
+              English
             </a>
           </li><li>
             <a href="/bs/goals/">
-              
+              Bosanski
             </a>
           </li><li>
             <a href="/hr/goals/">
-              
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -196,15 +196,15 @@ var translations = {
         <li id="menuToggle"
             aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false"></button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sr/goals">general.goals</a>
+    <a href="/sr/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/sr/reporting-status">menu.reporting_status</a>
+    <a href="/sr/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/sr/about">menu.about</a>
+    <a href="/sr/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/sr/publications">menu.publications</a>
+    <a href="/sr/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -216,19 +216,19 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Српски</span>
       <span class="language-abbreviation">sr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/goals/">
-              
+              English
             </a>
           </li><li>
             <a href="/bs/goals/">
-              
+              Bosanski
             </a>
           </li><li>
             <a href="/hr/goals/">
-              
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -243,12 +243,12 @@ var translations = {
         <li id="searchToggle"
             aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false"></button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/sr/search">
-    <label class="sr-only" for="indicator_search-mobile"></label>
-    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
-    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -257,21 +257,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/sr/search">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/sr/goals">general.goals</a>
+    <a href="/sr/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/sr/reporting-status">menu.reporting_status</a>
+    <a href="/sr/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/sr/about">menu.about</a>
+    <a href="/sr/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/sr/publications">menu.publications</a>
+    <a href="/sr/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -283,19 +283,19 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Српски</span>
       <span class="language-abbreviation">sr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/goals/">
-              
+              English
             </a>
           </li><li>
             <a href="/bs/goals/">
-              
+              Bosanski
             </a>
           </li><li>
             <a href="/hr/goals/">
-              
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -317,7 +317,7 @@ var translations = {
 
     <h1>
   
-    
+    Циљеви
   
 </h1>
 
@@ -329,103 +329,103 @@ var translations = {
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/1">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/1.png" id="goal-1" alt="global_goals.1-short -  1" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/1.png" id="goal-1" alt="Свијет без сиромаштва - Циљ 1" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/2">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/2.png" id="goal-2" alt="global_goals.2-short -  2" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/2.png" id="goal-2" alt="Свијет без глади - Циљ 2" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/3">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/3.png" id="goal-3" alt="global_goals.3-short -  3" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/3.png" id="goal-3" alt="Здравље и благостање - Циљ 3" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/4">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/4.png" id="goal-4" alt="global_goals.4-short -  4" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/4.png" id="goal-4" alt="Квалитетно образовање - Циљ 4" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/5">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/5.png" id="goal-5" alt="global_goals.5-short -  5" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/5.png" id="goal-5" alt="Родна равноправност - Циљ 5" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/6">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/6.png" id="goal-6" alt="global_goals.6-short -  6" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/6.png" id="goal-6" alt="Чиста вода и санитарни услови - Циљ 6" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/7">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/7.png" id="goal-7" alt="global_goals.7-short -  7" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/7.png" id="goal-7" alt="Приступачна енергија из чистих извора - Циљ 7" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/8">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/8.png" id="goal-8" alt="global_goals.8-short -  8" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/8.png" id="goal-8" alt="Достојанствен рад и економски раст - Циљ 8" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/9">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/9.png" id="goal-9" alt="global_goals.9-short -  9" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/9.png" id="goal-9" alt="Индустрија, иновације и инфраструктура - Циљ 9" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/10">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/10.png" id="goal-10" alt="global_goals.10-short -  10" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/10.png" id="goal-10" alt="Смањење неједнакости - Циљ 10" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/11">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/11.png" id="goal-11" alt="global_goals.11-short -  11" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/11.png" id="goal-11" alt="Одрживи градови и заједнице - Циљ 11" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/12">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/12.png" id="goal-12" alt="global_goals.12-short -  12" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/12.png" id="goal-12" alt="Одговорна потрошња и производња - Циљ 12" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/13">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/13.png" id="goal-13" alt="global_goals.13-short -  13" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/13.png" id="goal-13" alt="Очување климе - Циљ 13" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/14">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/14.png" id="goal-14" alt="global_goals.14-short -  14" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/14.png" id="goal-14" alt="Очување воденог свијета - Циљ 14" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/15">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/15.png" id="goal-15" alt="global_goals.15-short -  15" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/15.png" id="goal-15" alt="Очување живота на земљи - Циљ 15" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/16">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/16.png" id="goal-16" alt="global_goals.16-short -  16" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/16.png" id="goal-16" alt="Мир, правда и снажне институције - Циљ 16" />
                 </a>
             </div>
             
             <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/sr/17">
-                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/17.png" id="goal-17" alt="global_goals.17-short -  17" />
+                    <img src="https://sdg.fzs.ba/assets/img/goals/sr/17.png" id="goal-17" alt="Партнерством до циља - Циљ 17" />
                 </a>
             </div>
             
@@ -444,21 +444,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org"></a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">menu.contact_us</a>
+                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/sr/about/cookies-and-privacy/">menu.cookies</a>
+                <a href="/sr/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">menu.supported_by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -485,17 +485,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20251108020413'></script>
+<script src='/assets/js/sdg.js?v=20251109022038'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20251108020413"></script><script>
+    <script src="/assets/js/custom.js?v=20251109022038"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
